@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.so
+.venv/
+venv/
+env/
+
+# Environment
+.env
+!.env.example
+
+# Data & indexes (large files)
+data/raw/
+data/processed/
+data/indexes/faiss/*.faiss
+data/indexes/bm25/*.pkl
+data/indexes/embeddings/*.npy
+data/indexes/metadata.json
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Evaluation outputs (optional to commit)
+evaluation/results/*.json
+evaluation/results/*.html
+evaluation/results/raw/
+
+# Logs
+*.log
+logs/
